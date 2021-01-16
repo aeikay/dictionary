@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({extended:true}))
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
-});
+}); 
 
 router.post('/result',(req,res)=>{
   var api_key = "j1f49w7h0vfaxdwb3d51lj3cy57emtxtdpi27b8emr0t3yatc";
